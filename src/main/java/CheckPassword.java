@@ -1,10 +1,12 @@
-public class main {
+public class CheckPassword {
 
-    public static void main(String[] args){
 
+    public String Password (String Password){
+        String password = Password;
+        return password;
     }
 
-    private boolean check_length(String Password){
+    public boolean check_length(String Password){
         if (Password.length() > 8 && Password.length() < 25) {
             return true;
         } else
